@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
@@ -10,8 +10,8 @@ ext {
 
     libraryDescription = 'Prueba de repositorio'
 
-    siteUrl = 'https://github.com/nuuneoi/FBLikeAndroid'
-    gitUrl = 'https://github.com/nuuneoi/FBLikeAndroid.git'
+    siteUrl = 'https://github.com/JCRuelas/MavenPrueba'
+    gitUrl = 'https://github.com/JCRuelas/MavenPrueba.git'
 
     libraryVersion = '1.0'
 
