@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'DialogBuilder'
+    bintrayName = 'MavenPrueba'
 
     publishedGroupId = 'armit.solutions.mavenprueba'
-    libraryName = 'DialogBuilder'
-    artifact = 'DialogBuilder'
+    libraryName = 'MavenPrueba'
+    artifact = 'MavenPrueba'
 
     libraryDescription = 'Prueba de repositorio'
 
@@ -15,16 +15,18 @@ ext {
 
     libraryVersion = '1.0'
 
-    developerId = 'jchavez'
+    developerId = 'jcruelas'
     developerName = 'José Ruelas'
     developerEmail = 'jchavez@armit-solutions.com'
+
+    //apply from: 'https://raw.githubusercontent.com/jcruelas/JCenter/master/installv1.gradle'
+    //apply from: 'https://raw.githubusercontent.com/jcruelas/JCenter/master/bintrayv1.gradle'
 
 }
 
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "armit.solutions.mavenprueba"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
