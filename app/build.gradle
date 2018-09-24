@@ -1,28 +1,6 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'MavenPrueba'
 
-    publishedGroupId = 'armit.solutions.mavenprueba'
-    libraryName = 'MavenPrueba'
-    artifact = 'MavenPrueba'
-
-    libraryDescription = 'Prueba de repositorio'
-
-    siteUrl = 'https://github.com/JCRuelas/MavenPrueba'
-    gitUrl = 'https://github.com/JCRuelas/MavenPrueba.git'
-
-    libraryVersion = '1.0'
-
-    developerId = 'jcruelas'
-    developerName = 'José Ruelas'
-    developerEmail = 'jchavez@armit-solutions.com'
-
-    //apply from: 'https://raw.githubusercontent.com/jcruelas/JCenter/master/installv1.gradle'
-    //apply from: 'https://raw.githubusercontent.com/jcruelas/JCenter/master/bintrayv1.gradle'
-
-}
 
 android {
     compileSdkVersion 27
